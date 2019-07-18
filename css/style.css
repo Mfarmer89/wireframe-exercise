@@ -1,0 +1,82 @@
+header {
+  align-content: center;
+  background: grey;
+  padding: 10px;
+}
+
+#logo {
+  height: 70px;
+  margin: auto;
+  vertical-align: middle;
+  width: 200px;
+}
+
+nav {
+  display: inline-block; 
+  text-align: center;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+img {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+footer {
+  background: grey;
+  height: 100px;
+  margin-top: 30px;
+  width: 100%
+}
+
+section {
+  display: inline-block;
+  margin-top: 30px;
+  /* margin: 30px auto 0; */
+  width: 960px;
+}
+
+div {
+  display: inline-block;
+  height: 400px;
+  line-height: 1.5em;
+  overflow: hidden;
+  vertical-align: top;
+  width: 446px;
+}
+
+#sec2 img {
+  margin: 0;
+}
+
+#sec2 #midpic {
+  margin: 0 26px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 1em;
+}
+
+p {
+  height: 200px;
+}
+
+button {
+  margin-top: 3em;
+  padding: 0.5em 3em;
+  vertical-align: text-bottom;
+}
