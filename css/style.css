@@ -1,6 +1,6 @@
 header {
   align-content: center;
-  background: grey;
+  background: #444444;
   padding: 10px;
 }
 
@@ -17,14 +17,6 @@ nav {
   vertical-align: middle;
 }
 
-a {
-  display: inline-block;
-  height: 70px;
-  text-align: center;
-  vertical-align: middle;
-  width: 150px;
-}
-
 main {
   margin: 0 auto;
   width: 960px;
@@ -36,34 +28,42 @@ img {
 }
 
 footer {
-  background: grey;
+  background: #444444;
   height: 100px;
   margin-top: 30px;
   width: 100%
 }
 
 section {
-  display: inline-block;
+  display: block;
   margin-top: 30px;
   /* margin: 30px auto 0; */
   width: 960px;
+}
+
+header section {
+  margin:  auto;
+}
+
+a {
+  color:#969696;
+  padding: 1em 2em;
 }
 
 div {
   display: inline-block;
   height: 400px;
   line-height: 1.5em;
-  overflow: hidden;
   vertical-align: top;
   width: 446px;
 }
 
 #sec2 img {
-  margin: 0;
+  margin-right: 26px;
 }
 
-#sec2 #midpic {
-  margin: 0 26px;
+#sec2 :last-child {
+  margin-right: 0;
 }
 
 h1 {
@@ -72,7 +72,8 @@ h1 {
 }
 
 p {
-  height: 200px;
+  height: 290px;
+  overflow: scroll;
 }
 
 button {
