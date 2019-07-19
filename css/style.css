@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 header {
   align-content: center;
   background: #444444;
@@ -48,6 +52,7 @@ header section {
 a {
   color:#969696;
   padding: 1em 2em;
+  text-decoration: none;
 }
 
 div {
@@ -55,11 +60,11 @@ div {
   height: 400px;
   line-height: 1.5em;
   vertical-align: top;
-  width: 446px;
+  width: 445px;
 }
 
 #sec2 img {
-  margin-right: 26px;
+  margin-right: 25px;
 }
 
 #sec2 :last-child {
@@ -72,12 +77,15 @@ h1 {
 }
 
 p {
-  height: 290px;
+  font-style: italic;
+  height: 302px;
   overflow: scroll;
 }
 
 button {
-  margin-top: 3em;
-  padding: 0.5em 3em;
-  vertical-align: text-bottom;
+  background: black;
+  color: white;
+  font-size: 0.8em;
+  margin-top: 0.8em;
+  padding: 0.8em 2.5em;
 }
